@@ -50,8 +50,11 @@
       },
       "type": "n8n-nodes-base.formTrigger",
       "typeVersion": 2.5,
-      "position": [-1504, -176],
-      "id": "32647584-a4b2-4fbf-a394-0302c5a422ba",
+      "position": [
+        64,
+        624
+      ],
+      "id": "49fa234f-821f-4883-b736-eba00b20dd3e",
       "name": "New Support Ticket"
     },
     {
@@ -74,8 +77,11 @@
       },
       "type": "@n8n/n8n-nodes-langchain.guardrails",
       "typeVersion": 2,
-      "position": [-1344, -176],
-      "id": "4f3be66a-c67d-4075-96a3-6d63f8d1fbc9",
+      "position": [
+        224,
+        624
+      ],
+      "id": "7279fe9c-29e8-4eba-8759-7a20dd463610",
       "name": "Validate Ticket Scope (Guardrails)"
     },
     {
@@ -87,16 +93,22 @@
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1.1,
-      "position": [-1344, 48],
-      "id": "cbb485ee-36ef-47e1-857b-ad4e03bfce9c",
+      "position": [
+        224,
+        848
+      ],
+      "id": "05281708-9d72-4115-b509-5685bcef85b0",
       "name": "Google Gemini Chat Model (Guardrails)"
     },
     {
       "parameters": {},
       "type": "n8n-nodes-base.noOp",
       "typeVersion": 1,
-      "position": [-1120, 0],
-      "id": "bdc4b98b-c6a6-4d25-a3a8-1c781778007c",
+      "position": [
+        448,
+        800
+      ],
+      "id": "9310a3b6-7a36-46cf-a13f-c72bd46883cd",
       "name": "Out of Scope - No Action"
     },
     {
@@ -106,8 +118,11 @@
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1.1,
-      "position": [-912, 48],
-      "id": "cca7c1fd-5ed7-4d9b-840d-f725f99f0b49",
+      "position": [
+        656,
+        848
+      ],
+      "id": "105a936a-f27a-4168-b32d-f47bd7daafd4",
       "name": "Google Gemini Chat Model (AI Agent)"
     },
     {
@@ -116,8 +131,11 @@
       },
       "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
       "typeVersion": 1.3,
-      "position": [-592, 32],
-      "id": "4edc23e9-1c02-4b30-8850-3ba15e0855f8",
+      "position": [
+        976,
+        832
+      ],
+      "id": "3e662d54-bcf2-4f43-a7a3-217d6dd30380",
       "name": "Ticket Classification Output Schema"
     },
     {
@@ -130,8 +148,11 @@
       },
       "type": "n8n-nodes-base.trello",
       "typeVersion": 1,
-      "position": [-1296, -352],
-      "id": "ffd84fec-55e0-418a-a036-3e2275dd61ee",
+      "position": [
+        272,
+        448
+      ],
+      "id": "0747c704-e3af-4352-882f-b003c3844549",
       "name": "Get Trello Lists"
     },
     {
@@ -145,8 +166,11 @@
       },
       "type": "n8n-nodes-base.trello",
       "typeVersion": 1,
-      "position": [-704, -192],
-      "id": "82768f5c-195a-4ffb-a550-e1335b4ccfad",
+      "position": [
+        864,
+        608
+      ],
+      "id": "5e5dbba0-8886-44c1-83de-bad78c916023",
       "name": "Create Ticket Card in Trello"
     },
     {
@@ -161,8 +185,11 @@
       },
       "type": "n8n-nodes-base.trello",
       "typeVersion": 1,
-      "position": [-1504, -352],
-      "id": "a7cde934-4603-4135-82dd-b739e4015f45",
+      "position": [
+        64,
+        448
+      ],
+      "id": "a23a8b59-e71d-4307-9486-5111d2ee28d4",
       "name": "Get Trello Labels"
     },
     {
@@ -191,8 +218,11 @@
       },
       "type": "n8n-nodes-base.googleSheetsTool",
       "typeVersion": 4.7,
-      "position": [-768, 16],
-      "id": "b63942ec-da1d-4d5d-9948-a73a4d6cd29b",
+      "position": [
+        800,
+        816
+      ],
+      "id": "239a468a-5fe5-452b-a28a-3392a2dc3905",
       "name": "Look Up Customer Record (Google Sheets)"
     },
     {
@@ -212,8 +242,11 @@
       },
       "type": "n8n-nodes-base.gmail",
       "typeVersion": 2.2,
-      "position": [-512, -192],
-      "id": "cb4f0e0b-3b58-4283-8ce7-7c9fe631dd2b",
+      "position": [
+        1056,
+        608
+      ],
+      "id": "3b6bd080-8d4a-4629-87fe-ac8b38585058",
       "name": "Request Human Approval (Email)"
     },
     {
@@ -227,8 +260,11 @@
       },
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 3.1,
-      "position": [-1040, -192],
-      "id": "ab325685-6fc8-4a65-b778-dd8d8ef0f532",
+      "position": [
+        528,
+        608
+      ],
+      "id": "c11ad14d-45ab-477a-bc5a-4f17aaf269df",
       "name": "Classify and Draft Response (AI Agent)"
     },
     {
@@ -258,8 +294,11 @@
       },
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.3,
-      "position": [-320, -192],
-      "id": "cd1424f7-6742-4da9-9ade-b0cf9e22cf5b",
+      "position": [
+        1248,
+        608
+      ],
+      "id": "0adb07e1-6520-449b-b4c7-9b87e7b4688a",
       "name": "Is Response Approved?"
     },
     {
@@ -274,8 +313,11 @@
       },
       "type": "n8n-nodes-base.gmail",
       "typeVersion": 2.2,
-      "position": [-128, -336],
-      "id": "371a3d01-d783-4a92-8909-e0c38f984d09",
+      "position": [
+        1440,
+        464
+      ],
+      "id": "037a60c7-be5f-4bc3-9f96-72a7d7818ef5",
       "name": "Send Response to Customer"
     },
     {
@@ -292,8 +334,11 @@
       },
       "type": "n8n-nodes-base.trello",
       "typeVersion": 1,
-      "position": [64, -336],
-      "id": "8cc4cbfd-65bb-49a4-8fe5-f30392eaf9fe",
+      "position": [
+        1632,
+        464
+      ],
+      "id": "c0742ef4-bae5-455c-ae47-ef935ee02bba",
       "name": "Move Card to Resolved by AI"
     },
     {
@@ -310,132 +355,165 @@
       },
       "type": "n8n-nodes-base.trello",
       "typeVersion": 1,
-      "position": [-128, -80],
-      "id": "f4ecdc48-05a8-4854-bb1e-17176d04305c",
+      "position": [
+        1440,
+        720
+      ],
+      "id": "dfd13267-3ccd-4cf8-b736-712d0e8b84b9",
       "name": "Move Card to Manual Review"
     },
     {
       "parameters": {
-        "content": "## Workflow Overview\nThis workflow automates support ticket intake, AI classification, prioritization, human approval, and customer response.\n\n**Flow:**\n1. Customer submits a ticket via form\n2. AI checks the message is in scope (guardrails)\n3. AI Agent classifies category/priority/team and drafts a response, using a customer lookup tool\n4. A Trello card is created and labeled by priority\n5. A support team member reviews/approves the draft by email\n6. If approved -> response is emailed to the customer and the card moves to \"Resolved by AI\"\n7. If rejected -> the card moves to a manual review list",
-        "height": 180,
-        "width": 380,
+        "content": "## Workflow Overview\nAI triages incoming tickets and drafts replies -\na human always approves before anything reaches\nthe customer.\n\n1. Customer submits a ticket via form\n2. AI checks the ticket is in scope\n3. AI classifies it and drafts a reply\n4. A Trello card is created and labeled\n5. A teammate approves or rejects it by email\n6. Approved: reply is sent, card moves to\n   \"Resolved by AI\"\n7. Rejected: card moves to \"Manual Review\"",
+        "height": 515,
+        "width": 480,
         "color": 6
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [-1560, -800],
-      "id": "a1b2c3d4-e5f6-4a1b-8c2d-3e4f5a6b7c8d",
+      "position": [
+        0,
+        -510
+      ],
+      "id": "cf9a0d9d-7d96-43ed-8002-edcc474d50ce",
       "name": "Sticky Note - Overview"
     },
     {
       "parameters": {
-        "content": "## Required Credentials\nConfigure these after importing, before activating the workflow:\n\n- **Google Gemini (PaLM) API** - used by both AI language model nodes\n- **Trello API** - used by all Trello nodes (lists, labels, cards)\n- **Google Sheets API** - used by the customer lookup tool\n- **Gmail API** - used by the approval request and customer response emails\n\nNo credentials are included in this template - connect your own accounts after import.",
-        "height": 180,
-        "width": 380,
+        "content": "## Required Credentials\nNo credentials ship with this template - connect\nyour own accounts after importing.\n\n- Google Gemini (PaLM) API - both AI model nodes\n- Trello API - all Trello nodes\n- Google Sheets API - customer lookup tool\n- Gmail API - approval request & customer reply",
+        "height": 365,
+        "width": 480,
         "color": 4
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [-1160, -800],
-      "id": "b2c3d4e5-f6a7-4b2c-9d3e-4f5a6b7c8d9e",
+      "position": [
+        498,
+        -360
+      ],
+      "id": "228df5da-26e8-426b-8c06-d2304f286f3b",
       "name": "Sticky Note - Credentials"
     },
     {
       "parameters": {
-        "content": "## Customization & Language\n- The AI Agent's system message currently replies in the customer's language by default.\n- To force one fixed reply language, edit the last line of the system message (\"GENERAL RULES\" section).\n- Replace \"[Your Company Name]\" in the system message with your own company name.\n- Internal classification codes (category/priority/team, e.g. `bug`, `alta`, `engenharia`) are kept as literal values because they are compared across the AI schema, the Trello labeling logic, and the response prompt - see README before renaming them.",
-        "height": 180,
-        "width": 380,
+        "content": "## Customization & Language\n- Replace \"[Your Company Name]\" in the AI\n  Agent's system message.\n- Replies match the customer's language by\n  default; edit the last line of \"GENERAL RULES\"\n  to force one fixed language.\n- Category/priority/team codes (e.g. bug, alta,\n  engenharia) are reused across the AI schema,\n  Trello logic and the prompt - see README\n  before renaming them.",
+        "height": 425,
+        "width": 480,
         "color": 5
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [-760, -800],
-      "id": "c3d4e5f6-a7b8-4c3d-8e4f-5a6b7c8d9e0f",
+      "position": [
+        996,
+        -420
+      ],
+      "id": "a18a4671-0021-46c6-a40c-afeb0eabf319",
       "name": "Sticky Note - Customization"
     },
     {
       "parameters": {
-        "content": "## Testing This Template\n1. Open the form trigger's production/test URL and submit a test ticket.\n2. Confirm the guardrail step lets an in-scope message through.\n3. Check that a Trello card is created with the correct priority label.\n4. Check your approver inbox for the approval email and approve/reject it.\n5. Verify the customer receives a response email (if approved) or the card moves to manual review (if rejected).",
-        "height": 180,
-        "width": 380,
+        "content": "## Testing This Template\n1. Open the form trigger's test URL and submit a\n   ticket\n2. Confirm an in-scope message passes the\n   guardrail\n3. Check the Trello card and its priority label\n4. Approve or reject it from the approval email\n5. Confirm the reply is sent, or the card moves\n   to \"Manual Review\"",
+        "height": 395,
+        "width": 480,
         "color": 3
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [-360, -800],
-      "id": "d4e5f6a7-b8c9-4d4e-9f5a-6b7c8d9e0f1a",
+      "position": [
+        1494,
+        -390
+      ],
+      "id": "b4e10076-f38a-425d-b7cb-4e36ec0756e9",
       "name": "Sticky Note - Testing"
     },
     {
       "parameters": {
-        "content": "## Trigger & Scope Guardrail\n- **New Support Ticket**: public form intake. Field keys (Nome:, Email:, Empresa:, Assunto:, Mensagem:) stay in Portuguese internally because many expressions reference them; only the labels shown to users are in English.\n- **Validate Ticket Scope (Guardrails)**: blocks jailbreak attempts and off-topic submissions before they reach the AI Agent.",
-        "height": 180,
-        "width": 280
+        "content": "## Trigger & Scope Guardrail\n- New Support Ticket: the public form intake.\n  Internal field keys (Nome:, Email:, Empresa:,\n  Assunto:, Mensagem:) stay in Portuguese\n  because expressions reference them - only the\n  labels shown to users are in English.\n- Validate Ticket Scope (Guardrails): blocks\n  jailbreak attempts and off-topic submissions\n  before the AI Agent runs.",
+        "height": 395,
+        "width": 480
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [-1560, -560],
-      "id": "e5f6a7b8-c9d0-4e5f-8a6b-7c8d9e0f1a2b",
+      "position": [
+        0,
+        29
+      ],
+      "id": "e9fb573d-3702-4d7f-8956-ad18e76c4cb5",
       "name": "Sticky Note - Trigger"
     },
     {
       "parameters": {
-        "content": "## AI Classification & Response Drafting\n- **Classify and Draft Response (AI Agent)**: classifies category/priority/team and drafts an HTML customer response.\n- **Ticket Classification Output Schema**: defines the structured JSON the agent must return (keys kept in Portuguese - see README).\n- Edit the system message here to change classification rules, teams, or priority definitions.",
-        "height": 180,
-        "width": 280
+        "content": "## AI Classification & Response Drafting\n- Classify and Draft Response (AI Agent):\n  classifies category/priority/team and drafts\n  an HTML reply.\n- Ticket Classification Output Schema: the\n  structured JSON the agent must return (keys\n  kept in Portuguese - see README).\n- Edit the system message to change\n  classification rules, teams, or priorities.",
+        "height": 395,
+        "width": 480
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [-1260, -560],
-      "id": "f6a7b8c9-d0e1-4f6a-9b7c-8d9e0f1a2b3c",
+      "position": [
+        498,
+        29
+      ],
+      "id": "6157743f-1d15-4205-b1f8-2b7cc2f3f953",
       "name": "Sticky Note - AI Classification"
     },
     {
       "parameters": {
-        "content": "## Google Sheets Configuration\n- **Look Up Customer Record**: an AI tool that queries a Google Sheet for the customer's plan by email.\n- After import, point this node at your own spreadsheet (replace the placeholder spreadsheet ID) and make sure it has an `email` column plus a plan/tier column.",
-        "height": 180,
-        "width": 280
+        "content": "## Google Sheets Configuration\n- Look Up Customer Record: an AI tool\n  that queries a sheet for the\n  customer's plan by email.\n- Point it at your own spreadsheet\n  (replace the placeholder ID) with an\n  \"email\" column plus a plan/tier\n  column.",
+        "height": 365,
+        "width": 380
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [-960, -560],
-      "id": "a3b4c5d6-e7f8-4a3b-8c4d-5e6f7a8b9c0d",
+      "position": [
+        996,
+        59
+      ],
+      "id": "2e2e65d1-bdd6-4eec-ac74-8f4f43fc7180",
       "name": "Sticky Note - Google Sheets"
     },
     {
       "parameters": {
-        "content": "## Trello Configuration - Board, Lists & Priority Labels\n- **Get Trello Lists** / **Get Trello Labels**: helper nodes (not connected to the main flow) to look up your own board's list and label IDs after import. Replace `YOUR_TRELLO_BOARD_ID`.\n- **Create Ticket Card in Trello**: replace `YOUR_TRELLO_LIST_ID_NEW_TICKETS` and the 4 `YOUR_TRELLO_LABEL_ID_*` placeholders with IDs from your own board (one label per priority: critical/high/medium/low).",
-        "height": 180,
-        "width": 280
+        "content": "## Trello Configuration - Board, Lists & Labels\n- Get Trello Lists / Get Trello Labels: helper\n  nodes (not wired into the flow) - run them after\n  import to read your own board's IDs. Replace\n  YOUR_TRELLO_BOARD_ID.\n- Create Ticket Card in Trello: replace\n  YOUR_TRELLO_LIST_ID_NEW_TICKETS and the 4\n  YOUR_TRELLO_LABEL_ID_* placeholders (one per\n  priority: critical/high/medium/low).",
+        "height": 395,
+        "width": 500
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [-660, -560],
-      "id": "b4c5d6e7-f8a9-4b4c-9d5e-6f7a8b9c0d1e",
+      "position": [
+        1394,
+        29
+      ],
+      "id": "d45b828a-e6a2-4308-8a1c-041b33895a16",
       "name": "Sticky Note - Trello"
     },
     {
       "parameters": {
-        "content": "## Email Approval Configuration\n- **Request Human Approval (Email)**: sends a Gmail \"send and wait\" approval request. Replace the placeholder `sendTo` address with your support team's inbox.\n- **Send Response to Customer**: sends the AI-drafted response once approved. Update `senderName` if desired.",
-        "height": 180,
-        "width": 280
+        "content": "## Email Approval Configuration\n- Request Human Approval (Email): a\n  Gmail \"send and wait\" step. Replace\n  the placeholder sendTo address with\n  your support team's inbox.\n- Send Response to Customer: sends the\n  approved reply to the customer.\n  Update senderName if desired.",
+        "height": 365,
+        "width": 380
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [-360, -560],
-      "id": "c5d6e7f8-a9b0-4c5d-8e6f-7a8b9c0d1e2f",
+      "position": [
+        1912,
+        59
+      ],
+      "id": "0fb5f8e7-085a-4b19-ac81-b17bd105012a",
       "name": "Sticky Note - Email Approval"
     },
     {
       "parameters": {
-        "content": "## Post-Approval Routing\n- **Is Response Approved?** branches on the approval email response.\n- **Move Card to Resolved by AI** / **Move Card to Manual Review**: replace `YOUR_TRELLO_LIST_ID_RESOLVED_BY_AI` and `YOUR_TRELLO_LIST_ID_MANUAL_REVIEW` with your own Trello list IDs.",
-        "height": 180,
-        "width": 280
+        "content": "## Post-Approval Routing\n- Is Response Approved? branches on the\n  approval outcome from the email.\n- Move Card to Resolved by AI / Move Card\n  to Manual Review: replace\n  YOUR_TRELLO_LIST_ID_RESOLVED_BY_AI and\n  YOUR_TRELLO_LIST_ID_MANUAL_REVIEW with\n  your own Trello list IDs.",
+        "height": 365,
+        "width": 420
       },
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [-60, -560],
-      "id": "d6e7f8a9-b0c1-4d6e-9f7a-8b9c0d1e2f3a",
+      "position": [
+        2310,
+        59
+      ],
+      "id": "ae601b85-1d1b-4cdb-b1c9-e6944e328c64",
       "name": "Sticky Note - Routing"
     }
   ],

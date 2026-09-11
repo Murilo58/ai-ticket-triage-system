@@ -68,7 +68,7 @@ No credentials are included in this template. Connect your own accounts to each 
 
 ## Installation
 
-1. Import `AI-Ticket-Triage-System.json` into a new, empty n8n workflow.
+1. Import `workflows/creator-portal/ai-ticket-triage-system.json` into a new, empty n8n workflow.
 2. Attach your own credentials to every node listed under **Required Credentials**.
 3. Follow the **Configuration Guide** below to replace every placeholder ID.
 4. Activate the workflow and open the form trigger's production URL to test.
@@ -144,8 +144,8 @@ Trello cards are labeled based on the `prioridade` value returned by the AI Agen
 ## Repository Structure
 
 ```
-AI-Ticket-Triage-System.json   Sanitized n8n workflow template (import this file)
-README.md                      This file
+workflows/creator-portal/ai-ticket-triage-system.json   Sanitized n8n workflow template (import this file)
+README.md                                                This file
 ```
 
 ## License
